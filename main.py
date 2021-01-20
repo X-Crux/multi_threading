@@ -56,7 +56,7 @@ def time_track(func):
 
 @time_track
 def main():
-    directory = '/home/lucas/PycharmProjects/multi_threading/trades/'  # указать абсолютный путь до файлов .csv
+    directory = 'вставить абсолютный путь/trades/'  # указать абсолютный путь до файлов .csv
     chek_valid = CSVParse(directory)
     chek_valid.start()
     chek_valid.join()
